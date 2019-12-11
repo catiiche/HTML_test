@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> про Катю </title>
+    <meta charset ="utf-8" />
+</head>
+<body> 
+     <br />
+     <h1> Привет :) </h1> 
+     <h3> немного обо мне: </h3> 
+     <p>в моем возрасте <strong>Достоевский</strong> был приговорен к смертной казни,</p> 
+     <p>а <strong>Пушкин</strong> подарил своему другу Дельвигу череп</p> <hr /> <!-- к сожалению, более жизнерадостных фактов не нашлось-->
+     <ul>
+     <li>профессионально тестирую продукты lush</li>
+     <li>могу сказать по-китайски "спасибо"</li>
+     <li>знаю, что такое нертера</li>
+     </ul> <hr />
+     <a href="http://mega-mult.ru/multfilm/452-kubo-legenda-o-samurae.html" target="_blank" title="Это ссылка, жми скорее"> Мой любимый мультфильм </a>
+     <br /><br />
+     <img src="https://sun9-33.userapi.com/c850416/v850416324/12c10/8HhMqL6pNJY.jpg" width=25%" title="Это я делаю ласточку"/> <br /><br />
+     <table border="1" cellpadding="7" cellspacing="0">
+     <tr>
+     <td colspan="3" bgcolor="grey" align="center"> топ 3 книги, которые не должен прочитать каждый </td>
+     </tr>  
+     <tr>
+     <td width="26%" valign="top" align="center">Океан в конце дороги Нил Гейман</td>
+     <td width="25%" valign="top">История мира в 10,5 главах Джулиан Барнс</td>
+     <td width="25%" valign="top">Когда умерли все автобусы Этгар Керет</td>
+     </tr>
+     </table><br /><br />
+     <div style="position:absolute; left:0px; top:0px;
+     font-family:Roboto; font0size:10pt;
+     border-style:groove; border width:30px; border-color:green; padding:4px"><strike>тут могла быть ваша реклама</strike></span>
+     </div>
+     <form name="обратная связь" action"" method"post"> <!-- данные отправляться никуда не будут пока что-->
+        <label for="">Тут можно посоветовать свои книги или поделиться обратной связью </label> <input type"text" title="конечно да" id="name" />
+     </form>
+     <button>Нажми на кнопку </button>
+
+</body>
+</html>
