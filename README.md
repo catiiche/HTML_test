@@ -1,3 +1,2 @@
-# HTML_test
-# HTML_test
-# HTML_test
+#
+This project was created for educational purposes only.
