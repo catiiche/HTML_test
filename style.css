@@ -1,8 +1,3 @@
-body {
-	background-color: #f2354435;
-	background: url(https://sun9-69.userapi.com/c626519/v626519588/333c8/xt5HsT5jcH4.jpg); 
-}
-
 .header {
 	color: red;
 }
@@ -45,4 +40,39 @@ article {
 	width:60%;
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+.container {
+	display: grid;
+	grid-template-areas: 
+	'title title title'
+	'left middle right' 
+}
+
+.title {
+	grid-area: title;
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.ocean {
+	grid-area: left;
+	padding: 30px;
+	text-align: left;
+	font-size: 25px;
+}
+
+.history {
+	grid-area: middle;
+	padding: 30px;
+	text-align: middle;
+	font-size: 25px;
+}
+
+.bus {
+	grid-area: right;
+	padding: 30px;
+	text-align: right;
+	font-size: 25px;
 }

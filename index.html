@@ -39,34 +39,41 @@
 <hr /> 
 <!--к сожалению, более жизнерадостных фактов не нашлось-->
 <!--ссылка-->
-<a href="http://mega-mult.ru/multfilm/452-kubo-legenda-o-samurae.html" target="_blank" title="Это ссылка, жми скорее"> 
+<a id=cartoon href="http://mega-mult.ru/multfilm/452-kubo-legenda-o-samurae.html" target="_blank" title="Это ссылка, жми скорее"> 
   Мой любимый мультфильм 
 </a>
 <br />
 <br />
-<!--картинка-->
-<img src="https://sun9-33.userapi.com/c850416/v850416324/12c10/8HhMqL6pNJY.jpg" width=10% height=10% alt="фотография ласточки" border=0,5pt title="Это я делаю ласточку"/> 
-<br />
-<br />
 <!--таблица-->
-<table border="1" cellpadding="7" cellspacing="0">
+<div class="container">
+  <div table border="1" cellpadding="7" cellspacing="0">
+  </div>
   <tr>
-   <td colspan="3" bgcolor="coral" align="center">
-     топ 3 книги, которые не должен прочитать каждый 
-   </td>
+    <div class ="title">
+     <td colspan="3" bgcolor="coral" align="center">
+       топ 3 книги, которые не должен прочитать каждый 
+     </td>
+   </div>
  </tr>  
  <tr>
-  <td width="26%" valign="top" align="center">
-   Океан в конце дороги Нил Гейман
- </td>
+   <div class ="ocean">
+    <td width="26%" valign="top" align="center">
+     Океан в конце дороги Нил Гейман
+   </td>
+ </div>
  <td width="25%" valign="top" align="center">
+  <div class ="history">
    История мира в 10,5 главах Джулиан Барнс
  </td>
- <td width="25%" valign="top" align="center">
+</div>
+<td width="25%" valign="top" align="center">
+  <div class ="bus">
    Когда умерли все автобусы Этгар Керет
  </td>
+</div>
 </tr>
 </table>
+</div>
 <br />
 <br />
 <!--блоки-->
@@ -103,6 +110,12 @@ border-style:groove; border width:30px; border-color:green; padding:4px"><strike
  </ul> 
  <hr />
 </article>
+<!--картинка-->
+<div class="image">
+  <img src="https://sun9-33.userapi.com/c850416/v850416324/12c10/8HhMqL6pNJY.jpg" width=10% height=10% alt="фотография ласточки" border=0,5pt title="Это я делаю ласточку"/> 
+  <br />
+  <br />
+</div>
 <div class="row">
   <div class="col-md-4" style="background-color: #ff9999">VK</div>
   <div class="col-md-4" style="background-color: #99CCFF">FB</div>
@@ -121,5 +134,30 @@ border-style:groove; border width:30px; border-color:green; padding:4px"><strike
     </p>
   </div>
 </footer>
+<script type="text/javascript">
+  const c=['Kate'];
+  console.log(c);
+</script>
+<script type="text/javascript">
+ alert ('Are you ready to find something new and absolutely useless ?');
+</script>>
+<script type="text/javascript">
+  document.body.style.backgroundImage = 'url(https://sun9-69.userapi.com/c626519/v626519588/333c8/xt5HsT5jcH4.jpg)';
+</script>
+<script type="text/javascript">
+  const btn = document.getElementById("cartoon");
+  btn.onclick = alert_click;
+  function alert_click () {
+    const save_confirmation = confirm('Вы покидаете сайт для перехода по внешней ссылке');
+    console.log(save_confirmation);
+    if (save_confirmation) {
+      alert('Are you sure?');
+      console.log('Are you sure?'); 
+    } else {
+      alert('You are still here');
+      console.log('You are still here');
+    }
+  }
+</script>
 </body>
 </html>
